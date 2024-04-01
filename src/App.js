@@ -5,7 +5,7 @@ import { useBrowser } from './context/browser-context';
 import { useEffect } from 'react';
 
 const index = Math.floor(Math.random() * images.length);
-const bgImage = images[index].image;
+const bgImage = images[index].image; 
 
 function App() {
 
@@ -17,6 +17,7 @@ function App() {
       type: "NAME",
       payload: userName
     });
+    // eslint-disable-next-line
   }, [])
 
 
